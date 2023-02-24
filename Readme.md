@@ -1,6 +1,6 @@
 # Comparison of SQLite and SurrealDB with Node.js
 
-Stream a 6BM (57.000 lines) CSV file from the web, insert into a DB, and run some queries (a count aggregation, and a single query)
+Stream a 6 MB (57.000 lines) CSV file from the web, insert into a DB, and run some queries (a count aggregation, and a single query)
 
 ## SQLite with Node.js
 
@@ -31,4 +31,5 @@ Run the queries:
 ````
 node run.mjs
 ```
+
 ````
