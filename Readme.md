@@ -28,8 +28,6 @@ node surreal.mjs
 
 Run the queries:
 
-````
+```
 node run.mjs
 ```
-
-````
