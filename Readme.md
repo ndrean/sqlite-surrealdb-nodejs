@@ -6,7 +6,7 @@ Stream a 6 MB (57.000 lines) CSV file from the web, insert into a DB, and run so
 
 To test SQLite, just run:
 
-```
+```bash
 node sqlite.mjs
 ```
 
@@ -16,18 +16,18 @@ To run SurrealDB, run the server and use 2 terminals, one to upload from the web
 
 Run a SurrealDB server:
 
-```
+```bash
 surreal start  -u root -p root
 ```
 
 Upload the data into a SurrealDB table:
 
-```
+```bash
 node surreal.mjs
 ```
 
 Run the queries:
 
-```
+```bash
 node run.mjs
 ```

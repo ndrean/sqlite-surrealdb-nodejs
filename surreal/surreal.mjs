@@ -50,5 +50,3 @@ async function main() {
 }
 
 main();
-
-// export { db };
