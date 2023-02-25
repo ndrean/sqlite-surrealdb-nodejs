@@ -12,7 +12,9 @@ async function queries() {
   const count = await db.query("SELECT count() FROM airport GROUP BY ALL;");
   console.log(JSON.stringify(count));
 
-  const detail = await db.query();
+  const detail = await db.query(
+    "SELECT * FROM airport WHERE ident = 'SK-151';"
+  );
   console.log(JSON.stringify(detail));
 }
 
